@@ -514,7 +514,7 @@
   (gr_text + (at 119.38 98.044) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (gr_text - (at 119.38 104.521) (layer F.SilkS)
+  (gr_text - (at 119.38 104.521) (layer B.Paste)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
 
