@@ -805,14 +805,14 @@
   )
 
   (module Symbol:OSHW-Logo_5.7x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5C5D85C7)
-    (at 126.8095 82.4865)
+    (at 121.0945 86.741 180)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")
     (attr virtual)
-    (fp_text reference REF** (at 0 0) (layer B.SilkS) hide
+    (fp_text reference REF** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value OSHW-Logo_5.7x6mm_SilkScreen (at 0.75 0) (layer B.Fab) hide
+    (fp_text value OSHW-Logo_5.7x6mm_SilkScreen (at 0.75 0 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_poly (pts (xy 0.376964 2.709982) (xy 0.433812 2.40843) (xy 0.853338 2.235488) (xy 1.104984 2.406605)
@@ -1156,7 +1156,7 @@
       (xy -1.971615 -1.454739) (xy -1.908759 -1.469184)) (layer B.SilkS) (width 0.01))
   )
 
-  (gr_text "Low Power Fan\nCorwin Hansen" (at 118.618 83.5025) (layer B.SilkS)
+  (gr_text "Low Power Fan\nCorwin Hansen" (at 122.555 81.915) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text - (at 129.032 86.106) (layer F.SilkS)
