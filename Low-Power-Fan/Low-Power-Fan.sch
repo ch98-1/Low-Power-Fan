@@ -234,12 +234,12 @@ Connection ~ 5050 3950
 $Comp
 L Device:C C3
 U 1 1 5C4EA912
-P 2850 4300
-F 0 "C3" H 2965 4346 50  0000 L CNN
-F 1 "22uF" H 2965 4255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2888 4150 50  0001 C CNN
-F 3 "~" H 2850 4300 50  0001 C CNN
-	1    2850 4300
+P 3300 3200
+F 0 "C3" H 3415 3246 50  0000 L CNN
+F 1 "22uF" H 3415 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3338 3050 50  0001 C CNN
+F 3 "~" H 3300 3200 50  0001 C CNN
+	1    3300 3200
 	1    0    0    -1  
 $EndComp
 Connection ~ 5050 3050
@@ -315,8 +315,15 @@ F 3 "" H 2800 3450 50  0001 C CNN
 $EndComp
 Connection ~ 1800 3050
 Connection ~ 2350 3050
+Connection ~ 3300 3050
+Wire Wire Line
+	3300 3050 4000 3050
 Connection ~ 3300 3500
+Wire Wire Line
+	3300 3500 3300 3350
 Connection ~ 2800 3050
+Wire Wire Line
+	2800 3050 3300 3050
 Wire Wire Line
 	2350 3050 2800 3050
 $Comp
@@ -349,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3500 3300 3500
 Wire Wire Line
-	3300 3500 3300 3950
+	3300 3500 3300 4000
 Wire Wire Line
 	2800 3450 2800 3500
 Wire Wire Line
@@ -383,26 +390,4 @@ F 3 "" H 4100 3650 50  0001 C CNN
 	1    4100 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 3050 4000 3050
-Wire Wire Line
-	2850 4150 2850 3950
-Wire Wire Line
-	2850 3950 3300 3950
-Connection ~ 3300 3950
-Wire Wire Line
-	3300 3950 3300 4000
-$Comp
-L power:GND #PWR?
-U 1 1 5C5C0E94
-P 2850 4650
-F 0 "#PWR?" H 2850 4400 50  0001 C CNN
-F 1 "GND" H 2855 4477 50  0000 C CNN
-F 2 "" H 2850 4650 50  0001 C CNN
-F 3 "" H 2850 4650 50  0001 C CNN
-	1    2850 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 4650 2850 4450
 $EndSCHEMATC
